@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Lenin Moreno - Ingeniero de Software"
+    />
+    <title>Mi Portafolio | Ingeniero de Software</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdPgPorAAAAAE9WQjx4qnCFs7yeEd3Ga7bAaPu2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-brand">
+          <h2>&lt;Lenin Moreno /&gt;</h2>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li>
+            <a href="#inicio" class="nav-link">Inicio</a>
+          </li>
+          <li>
+            <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+          </li>
+          <li>
+            <a href="#habilidades" class="nav-link">Habilidades</a>
+          </li>
+          <li>
+            <a href="#proyectos" class="nav-link">Proyectos</a>
+          </li>
+          <li>
+            <a href="#contacto" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Hola, soy Lenin Moreno</h1>
+          <h2 class="hero-subtitle">Ingeniero de Software</h2>
+          <p class="hero-description">
+            Desarrollo soluciones web innovadoras y escalables. Especializado en
+            crear experiencias digitales excepcionales.
+          </p>
+          <div class="hero-buttons">
+            <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+            <a href="#contacto" class="btn btn-secondary">Contactar</a>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://github.com/LennyMA"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lennymv/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:lenin.m.v@outlook.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section class="about" id="sobre-mi">
+      <div class="container">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Soy un ingeniero de software apasionado por la tecnología y la
+              resolución de problemas. Con experiencia en el desarrollo de
+              aplicaciones web modernas, me especializo en crear soluciones
+              eficientes y escalables.
+            </p>
+            <p>
+              Me encanta aprender nuevas tecnologías y mantenerme actualizado
+              con las últimas tendencias en desarrollo de software. Actualmente
+              enfocado en tecnologías web frontend y backend.
+            </p>
+            <a
+              href="assets/LeninMorenoCVES.pdf"
+              class="btn btn-primary"
+              download
+            >
+              <i class="fas fa-download"></i> Descargar CV - ES
+            </a>
+            <a
+              href="assets/LeninMorenoCVEN.pdf"
+              class="btn btn-primary"
+              download
+            >
+              <i class="fas fa-download"></i> Descargar CV - EN
+            </a>
+          </div>
+          <div class="about-image">
+            <div class="image-container">
+              <!-- <i class="fas fa-user"></i> -->
+              <img src="imgs/yo.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills" id="habilidades">
+      <div class="container">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <h3>Lenguajes</h3>
+            <ul>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Kotlin</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5 & CSS3</li>
+              <li>Angular</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-server"></i>
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>APIs RESTful</li>
+              <li>Bases de datos SQL</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-tools"></i>
+            <h3>Herramientas</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Postman</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Otros</h3>
+            <ul>
+              <li>Metodologías Ágiles</li>
+              <li>Nivel de inglés B1</li>
+              <li>Conocimientos fundamentales de hardware</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="projects" id="proyectos">
+      <div class="container">
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <div class="projects-grid">
+          <!-- PROYECTO 1: Sistema Médico (ESTRELLA) -->
+          <div class="project-card project-featured">
+            <div
+              class="project-image"
+              style="
+                background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+              "
+            >
+              <i class="fas fa-heartbeat"></i>
+              <span class="featured-badge">Proyecto de Tesis</span>
+            </div>
+            <div class="project-content">
+              <h3>Sistema de Gestión para Consultorio Médico</h3>
+              <p>
+                Desarrollé un sistema web integral para la gestión completa de
+                un consultorio médico como proyecto de tesis. Incluye gestión de
+                pacientes, historias clínicas digitales, agendamiento de citas,
+                generación de recetas y certificados médicos. Integrado con
+                códigos CIE-10 y el Cuadro Nacional de Medicamentos Básicos del
+                Ecuador para cumplir normativas del sector salud.
+              </p>
+              <div class="project-tags">
+                <span>Angular 19</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>TypeScript</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>Integración CIE-10</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>Cumplimiento normativa MSP Ecuador</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>Generación automática de documentos</span>
+                </div>
+              </div>
+              <div class="project-meta">
+                <span class="project-role">
+                  <i class="fas fa-user-graduate"></i> Proyecto de Tesis
+                </span>
+                <br />
+                <span class="project-date">
+                  <i class="fas fa-calendar"></i> 2025
+                </span>
+              </div>
+              <div class="project-links">
+                <button
+                  class="btn-small btn-private"
+                  disabled
+                  title="Código confidencial"
+                >
+                  <i class="fas fa-lock"></i> Código Privado
+                </button>
+                <a href="#contacto" class="btn-small">
+                  <i class="fas fa-images"></i> Ver Capturas
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROYECTO 2: Sistema de Optimización -->
+          <div class="project-card project-featured">
+            <div
+              class="project-image"
+              style="
+                background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+              "
+            >
+              <i class="fas fa-cut"></i>
+            </div>
+            <div class="project-content">
+              <h3>Sistema de Optimización de Cortes para Marmolería</h3>
+              <p>
+                Desarrollé un sistema web que optimiza el corte de planchas de
+                mármol, granito y otros materiales para minimizar desperdicios.
+                La aplicación calcula automáticamente la distribución óptima de
+                cortes y muestra una visualización en tiempo real con
+                dimensiones y etiquetas. Generación de proformas incluida.
+              </p>
+              <div class="project-tags">
+                <span>Angular 19</span>
+                <span>Python</span>
+                <span>PostgreSQL</span>
+                <span>Algoritmos</span>
+              </div>
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fas fa-chart-line"></i>
+                  <span>Reducción significativa de desperdicios</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-eye"></i>
+                  <span>Visualización interactiva de cortes</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-calculator"></i>
+                  <span>Algoritmo de optimización personalizado</span>
+                </div>
+              </div>
+              <div class="project-meta">
+                <span class="project-status">
+                  <i class="fas fa-briefcase"></i> Cliente real - Marmolería
+                </span>
+                <br />
+                <span class="project-date">
+                  <i class="fas fa-calendar"></i> 2025
+                </span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/LennyMA/MARMOLES-FRONT"
+                  target="_blank"
+                  class="btn-small"
+                >
+                  <i class="fab fa-github"></i> Código del Frontend
+                </a>
+                <a href="#contacto" class="btn-small">
+                  <i class="fas fa-images"></i> Ver Capturas
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROYECTO 3: Sistema Farmacéutica -->
+          <div class="project-card project-featured">
+            <div
+              class="project-image"
+              style="
+                background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+              "
+            >
+              <i class="fas fa-file-medical"></i>
+            </div>
+            <div class="project-content">
+              <h3>Sistema de Gestión Documental Farmacéutica</h3>
+              <p>
+                Participé en el desarrollo de un sistema de gestión documental
+                para una empresa farmacéutica. Mi rol incluyó el desarrollo
+                completo de módulos tanto en frontend como backend,
+                implementando funcionalidades de carga, clasificación, búsqueda
+                y almacenamiento seguro de documentación regulatoria.
+              </p>
+              <div class="project-tags">
+                <span>Angular 16</span>
+                <span>JavaScript</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="project-meta">
+                <span class="project-role">
+                  <i class="fas fa-users"></i> Desarrollo Full-Stack en equipo
+                </span>
+                <br />
+                <span class="project-date">
+                  <i class="fas fa-calendar"></i> 2024
+                </span>
+              </div>
+              <div class="project-links">
+                <button
+                  class="btn-small btn-private"
+                  disabled
+                  title="Código bajo confidencialidad del cliente"
+                >
+                  <i class="fas fa-lock"></i> Código Privado
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nota sobre más proyectos -->
+        <div class="more-projects">
+          <p>
+            <i class="fas fa-code"></i>
+            Además, cuento con varios proyectos de práctica y aprendizaje en mi
+            <a
+              href="https://github.com/LennyMA"
+              target="_blank"
+              class="inline-link"
+              >GitHub</a
+            >
+            donde exploro nuevas tecnologías y mejores prácticas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>¡Trabajemos juntos!</h3>
+            <p>
+              Estoy disponible para nuevos proyectos y oportunidades. No dudes
+              en contactarme.
+            </p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:lenin.m.v@outlook.com">lenin.m.v@outlook.com</a>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Ambato, Ecuador</span>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/lennymv/" target="_blank"
+                  >linkedin.com/in/lennymv</a
+                >
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <input
+              type="text"
+              name="honeypot"
+              id="honeypot"
+              style="display: none"
+              tabindex="-1"
+              autocomplete="off"
+            />
+
+            <div class="form-group">
+              <div class="input-with-icon">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nombre y Apellido"
+                  required
+                />
+                <i class="fas fa-user"></i>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-with-icon">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="correo@ejemplo.com"
+                  required
+                />
+                <i class="fas fa-envelope"></i>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-with-icon">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Escribe tu mensaje aquí... (mínimo 20 caracteres)"
+                  required
+                ></textarea>
+                <i class="fas fa-comment-dots"></i>
+                <span class="char-count">0/500</span>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Enviar Mensaje
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Lenin Moreno. Todos los derechos reservados.</p>
+        <p style="font-size: 0.8rem; margin-top: 0.5rem">
+          Este sitio está protegido por reCAPTCHA y aplican la
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            style="color: inherit"
+            >Política de Privacidad</a
+          >
+          y
+          <a
+            href="https://policies.google.com/terms"
+            target="_blank"
+            style="color: inherit"
+            >Términos de Servicio</a
+          >
+          de Google.
+        </p>
+        <div class="footer-links">
+          <a href="https://github.com/LennyMA" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://linkedin.com/in/lennymv" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:lenin.m.v@outlook.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botón scroll to top -->
+    <button id="scrollTop" class="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="scripts/main.js"></script>
+    <!-- EmailJS SDK -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init("2JONkaUfnOg_WCStN");
+    </script>
+  </body>
+</html>
